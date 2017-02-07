@@ -1,0 +1,9 @@
+This is where I will post my fun class assignments.
+.
+..
+badly-named-file.txt
+classwork-Tues-01-17.txt
+classwork-Tues-1-17.txt
+.git
+README.txt
+temp.txt

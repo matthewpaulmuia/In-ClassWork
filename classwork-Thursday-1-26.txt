@@ -1,0 +1,100 @@
+  379  ls thurs-1-12-2017/
+  380  touch classwork-Thursday-1-26.txt
+  381  gedit classwork-Thursday-1-26.txt 
+  382  git add classwork-Thursday-1-26.txt 
+  383  git commit -m "adding text file for thursday-1-26"
+  384  git push
+  385  ls -l
+  386  ls
+  387  touch permissions.txt
+  388  ls -l
+  389  chmod u=rwx permissions.txt 
+  390  ls -l
+  391  chmod u-x permissions.txt 
+  392  ls -l
+  393  gedit
+  394  ls -l
+  395  dir.sh
+  396  ls /user/bin
+  397  /usr/bin
+  398  ls usr/bin
+  399  ls /usr/bin
+  400  ls /bin
+  401  $path
+  402  $PATH
+  403  cd
+  404  mkdir scripts
+  405  ls
+  406  cd scripts/
+  407  mv ~/Desktop/eeb-177/class-assignments/dir.sh 
+  408  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  409  ls
+  410  cd
+  411  gedit .bash_profile
+  412  ls -a
+  413  $PATH
+  414  cd scripts/
+  415  ls -l
+  416  chmod u+x dir.sh 
+  417  ls -l
+  418  dir.sh
+  419  cd
+  420  cd eeb-177/
+  421  ls
+  422  ls -l
+  423  ls
+  424  cd ..
+  425  cd Desktop/
+  426  dir.sh
+  427  cd
+  428  ls
+  429  ls -a
+  430  gedit .profile
+  431  sudo reboot
+  432  $PATH
+  433  cd Desktop/
+  434  dir.sh
+  435  cd
+  436  script
+  437  cd scripts/
+  438  gedit dir.sh 
+  439  cd
+  440  cd Desktop/
+  441  dir.sh
+  442  cd
+  443  cd CSB/
+  444  dir.sh
+  445  cd
+  446  scripts/
+  447  cd scripts/
+  448  git init
+  449  ls
+  450  gedit in_class_script.sh
+  451  ls -l
+  452  chmod u+x in_class_script.sh 
+  453  ls -l
+  454  cd ~/Desktop/eeb-177/lab-work/
+  455  in_class_scripts.sh
+  456  in_class_script.sh
+  457  cd
+  458  cd scripts/
+  459  git status
+  460  git add dir.sh in_class_script.sh 
+  461  git commit -m "initial commit with scripts from class"
+  462  git remote add origin https://github.com/matthewpaulmuia/Scripts.git
+  463  git push -u origin master
+  464  git push
+  465  git status
+  466  cd
+  467  cd Desktop/eeb-177/lab-work/
+  468  cd ..
+  469  class-assignments/
+  470  cd class-assignments/
+  471  ipython
+  472  history
+  473  cd Desktop/eeb-177/class-assignments/
+  474  ls
+  475  gedit classwork-Thursday-1-26.txt 
+  476  man history
+  477  history 100
+  478  history 100 >> classwork-Thursday-1-26.txt 

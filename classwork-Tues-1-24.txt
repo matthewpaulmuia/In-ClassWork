@@ -1,0 +1,57 @@
+../../../Desktop/eeb-177/class-assignments/classwork-Tueday-1-24.txt
+../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+../../../Desktop/eeb-177/class-assignments/thurs-1-12-2017/classwork-Tues-1-17.txt
+../../../Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
+  335  cd 
+  336  cd CSB/unix/sandbox/
+  337  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  338  gedit cep-taxa.txt 
+  339  grep
+  340  man grep
+  341  grep Orchidacea cep-taxa.txt 
+  342  grep -c Orchidacea cep-taxa.txt 
+  343  grep falcon cep-taxa.txt 
+  344  grep Falcon cep-taxa.txt 
+  345  grep -i falcon cep-taxa.txt 
+  346  grep Ara cep-taxa.txt 
+  347  grep -i ara cep-taxa.txt 
+  348  grep -i -w  ara cep-taxa.txt 
+  349  grep -B 3 Cebus cep-taxa.txt 
+  350  grep -i -w iguanas cep-taxa.txt 
+  351  grep -n -i -w iguana cep-taxa.txt 
+  352  grep -c -i -w -v ara cep-taxa.txt 
+  353  grep -n -i -w -v ara cep-taxa.txt 
+  354  find .
+  355  find .*
+  356  find ../data/
+  357  find ../data/ | wc -l
+  358  find ../data/ -name "n30.txt"
+  359  find ../data/ -iname "*about*"
+  360  find ../class-work/ -iname "*1-24*"
+  361  find ../../../Desktop/ -iname "*classwork*"
+  362  find ../../../Desktop/ -iname "*classwork*" >> ../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  363* find ../../../Desktop/ -iname "*classwork*" >> ../../../Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.tx
+  364  cd ../../../Desktop/eeb-177/class-assignments/
+  365  git add classwork-Tues-1-24.txt 
+  366  git commit -m "adding appendaged class work"
+  367  git push
+  368  git stat
+  369  git status
+  370  git rm classwork-Tueday-1-24.txt 
+  371  git commit -m "removing incorrect file"
+  372  git push
+  373  git status
+  374  cd ../../../
+  375  cd CSB/unix/sandbox/
+  376  find ../data -maxdepth 1 -name "*.txt*"
+  377  find ../data -maxdepth 1 -name "*.txt*" | wc -l
+  378  find ../data -name "*.txt*" | wc -l
+  379  ls -l
+  380  touch permissions.txt
+  381  ls -l
+  382  chmod u=rwx permission.txt
+  383  ls -l
+  384  chmod u+x permissions.txt 
+  385  ls -l
+  386  history
+  387  history 53 >> ~eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt 

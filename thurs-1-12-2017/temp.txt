@@ -1,0 +1,165 @@
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  mkdir EEB177
+   70  ls
+   71  pwd
+   72  cd EEB177
+   73  cd ..
+   74  mkdir lab-work
+   75  rmdir lab-work
+   76  rmdir EEB177
+   77  pwd
+   78  cd EEB177
+   79  add lab-work
+   80  cd class-assignments
+   81  cd class-assignments-master
+   82  git config
+   83  git config --global user.name "matthewpaulmuia"
+   84  git config --global user.email "matthewpaulmuia@gmail.com"
+   85  cd desktop
+   86  mkdir eeb-177
+   87  git config --get-all
+   88  pwd
+   89  git config --global user.name "matthewpaulmuia"
+   90  git config --global user.email "matthewpaulmuia@gmail.com"
+   91  cd
+   92  cd Desktop
+   93  mkdir eeb-177
+   94  cd eeb-177
+   95  cd class-assignments-master
+   96  add README.txt
+   97  git init
+   98  git add README.txt
+   99  touch README.txt
+  100  gedit README.txt
+  101  git add README.txt
+  102  git commit -m "adding README file"
+  103  git push
+  104  https://github.com/matthewpaulmuia/class-assignments.git
+  105  git config --global credential.helper cache
+  106  git config
+  107  cd Desktop
+  108  cd eeb-177
+  109  mkdir lab-work
+  110  cd lab-work
+  111  git init
+  112  touch README.txt
+  113  gedit README.txt
+  114  git add README.txt
+  115  git commit -m "initial commit: adding README file"
+  116  git log
+  117  git push
+  118  git push README.txt
+  119  cd Desktop
+  120  cd ..
+  121  gedit
+  122  cd eeb-177
+  123  cd class-assignments-master
+  124  cd lab-work
+  125  class-assignments-master
+  126  cd ..
+  127  cd Desktop
+  128  cd eeb-177
+  129  cd class-assignments-master
+  130  ls
+  131  cd ..
+  132  ls
+  133  mv
+  134  cd class-assignments
+  135  touch classwork-Tues-1-17.txt
+  136  gedit classwork-Tues-1-17
+  137  git status
+  138  git add classwork-Tues-1-17.txt
+  139  git commit-m "adding exercise for Tuesday 01-17"
+  140  git commit -m "adding exercise for Tuesday 01-17"
+  141  git push
+  142  git remote add https://github.com/matthewpaulmuia/class-assignments.git
+  143  git push
+  144  git push https://github.com/matthewpaulmuia/class-assignments.git
+  145  git push --set-upstream https://github.com/matthewpaulmuia/class-assignments.git master
+  146  git pull https://github.com/matthewpaulmuia/class-assignments.git
+  147  cd ..
+  148  cd eeb-177
+  149  cd class-exercises
+  150  cd class-assignments
+  151  mkdir badly-named-file.txt
+  152  rmdir badly-named-file.txt
+  153  touch badly-named-file.txt
+  154  cp badly-named-file.txt
+  155  cp badly-named-file.txt directory
+  156  ls
+  157  rm directory
+  158  cp badly-named-file.txt ~
+  159  ls ~
+  160  ls
+  161  ls-la
+  162  ls -la
+  163  man bash
+  164  history
+  165  history > temp.txt
