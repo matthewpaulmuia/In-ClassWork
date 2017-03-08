@@ -1,0 +1,22 @@
+---
+title: "classwork-Tuesday-03-07"
+author: "Matthew Muia"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+library(paleotree)
+library(paleobioDB)
+canids <- pbdb_occurences(limit="all", vocab=)
+data(graptPBDB)
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+plotOccData(occSpecies,groupLabel = "Species")
+graptTimeSpecies <- occData2timeList(occList=occSpecies)
+taxicDivDisc(graphTimeSpecies)
+```
+
+```{r}
+graptTimeSpecies <- occData2timeList(occlist=occSpecies)
+graptTimeGenus <- occData2timeList(occList=occGenera)
+```
