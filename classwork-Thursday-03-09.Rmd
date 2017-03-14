@@ -1,0 +1,12 @@
+---
+title: "classwork-Thursday-03-09"
+author: "Matthew Muia"
+date: "March 9, 2017"
+output: html_document
+---
+
+```{r}
+library(forcats)
+
+canid_occ <- ggplot(canids, aes(x = fct_reorder(species, minage, .desc = T)))
+```
